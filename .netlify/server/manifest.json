@@ -1,0 +1,90 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-c180ea3f.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  ".svelte-kit/runtime/components/layout.svelte": {
+    "file": "entries/fallbacks/layout.svelte.js",
+    "src": ".svelte-kit/runtime/components/layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-c180ea3f.js"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-c180ea3f.js"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "entries/pages/about.svelte.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-c180ea3f.js"
+    ],
+    "css": [
+      "assets/entries/pages/about.svelte-be6f01d0.css"
+    ]
+  },
+  "src/routes/battle.svelte": {
+    "file": "entries/pages/battle.svelte.js",
+    "src": "src/routes/battle.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-c180ea3f.js",
+      "_pokestore-0a85a7cd.js"
+    ],
+    "css": [
+      "assets/entries/pages/battle.svelte-8287d865.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-c180ea3f.js",
+      "_pokestore-0a85a7cd.js"
+    ],
+    "css": [
+      "assets/entries/pages/index.svelte-04823b7c.css"
+    ]
+  },
+  "src/routes/poketeam.svelte": {
+    "file": "entries/pages/poketeam.svelte.js",
+    "src": "src/routes/poketeam.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-c180ea3f.js",
+      "_pokestore-0a85a7cd.js"
+    ],
+    "css": [
+      "assets/entries/pages/poketeam.svelte-c17d4b53.css"
+    ]
+  },
+  "_index-c180ea3f.js": {
+    "file": "chunks/index-c180ea3f.js"
+  },
+  "_pokestore-0a85a7cd.js": {
+    "file": "chunks/pokestore-0a85a7cd.js",
+    "imports": [
+      "_index-c180ea3f.js"
+    ]
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "chunks/hooks-1c45ba0b.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  }
+}
